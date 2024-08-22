@@ -1,5 +1,18 @@
 # `useMemo` Hook
 
+## Table of Contents
+
+- [`useMemo` Hook](#usememo-hook)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Basic Usage](#basic-usage)
+  - [Example Usage](#example-usage)
+  - [Explanation](#explanation)
+  - [When to Use `useMemo`](#when-to-use-usememo)
+  - [Gotchas](#gotchas)
+  - [Conclusion](#conclusion)
+  - [Additional Resources](#additional-resources)
+
 ## Introduction
 
 The `useMemo` Hook in React is a performance optimization tool that allows you to memoize the result of a computation. This means that React will "remember" the computed result of a function and only recompute it when one of its dependencies changes. This can be especially useful for expensive calculations that would otherwise slow down your application if executed on every render.
