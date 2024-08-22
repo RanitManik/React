@@ -1,4 +1,4 @@
-# React `useState` Hook
+# `useState` Hook
 
 The `useState` hook is a fundamental part of React's functional component API, allowing you to manage state within functional components. This document provides a comprehensive guide to using `useState`, including common gotchas, best practices, and examples.
 
