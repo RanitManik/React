@@ -1,21 +1,5 @@
 # `useRef` Hook
 
-## Table of Contents
-
-- [`useRef` Hook](#useref-hook)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Use Cases](#use-cases)
-    - [1. Tracking Mutable Values](#1-tracking-mutable-values)
-    - [2. Accessing DOM Elements](#2-accessing-dom-elements)
-  - [Syntax](#syntax)
-  - [Examples](#examples)
-    - [Example 1: Tracking Previous State Value](#example-1-tracking-previous-state-value)
-    - [Example 2: Focusing an Input Field](#example-2-focusing-an-input-field)
-  - [Gotchas](#gotchas)
-  - [Conclusion](#conclusion)
-  - [Additional Resources](#additional-resources)
-
 ## Overview
 
 The `useRef` Hook in React is a versatile tool that can be used for multiple purposes. It primarily serves two key functions:

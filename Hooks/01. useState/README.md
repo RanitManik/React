@@ -2,24 +2,6 @@
 
 The `useState` hook is a fundamental part of React's functional component API, allowing you to manage state within functional components. This document provides a comprehensive guide to using `useState`, including common gotchas, best practices, and examples.
 
-## Table of Contents
-
-- [React `useState` Hook](#react-usestate-hook)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Gotchas](#gotchas)
-    - [1. Hooks Can Only Be Used Inside Functional Components](#1-hooks-can-only-be-used-inside-functional-components)
-    - [2. Hooks Must Be Called in the Same Order](#2-hooks-must-be-called-in-the-same-order)
-  - [Using `useState`](#using-usestate)
-    - [Basic Usage](#basic-usage)
-    - [Updating State](#updating-state)
-    - [Why Functional Update is Better](#why-functional-update-is-better)
-  - [Best Practices](#best-practices)
-  - [Examples](#examples)
-    - [Basic Counter Example](#basic-counter-example)
-    - [Managing Multiple Pieces of State](#managing-multiple-pieces-of-state)
-  - [Additional Resources](#additional-resources)
-
 ## Overview
 
 The `useState` hook is used to add state variables to functional components. It returns an array containing the current state value and a function to update that state.

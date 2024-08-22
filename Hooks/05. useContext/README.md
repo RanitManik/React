@@ -1,28 +1,5 @@
 # `useContext` Hook
 
-## Table of Contents
-
-1. **Overview**
-2. **Key Concepts**
-   - Context Creation
-   - Context Provider
-   - Custom Hooks
-   - Context Consumer
-3. **Example**
-   - Setting Up Context
-   - Consuming Context
-   - Providing Context
-4. **Detailed Explanation**
-   - Creating Context
-   - Using `useContext` Hook
-   - Providing Context
-   - Consuming Context
-   - Styling
-5. **Additional Notes**
-   - Custom Hooks
-   - Context Limitations
-6. **Additional Resources**
-
 ## Overview
 
 The `useContext` hook in React provides a way to access context values in functional components. Context is designed to manage global state that is accessible throughout a component tree without passing props manually at every level. The `useContext` hook simplifies consuming context values and helps manage state effectively in React applications.

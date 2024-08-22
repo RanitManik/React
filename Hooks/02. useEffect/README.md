@@ -1,22 +1,5 @@
 # `useEffect` Hook
 
-Here's a table of contents for your `useEffect` Hook documentation:
-
-## Table of Contents
-
-- [`useEffect` Hook](#useeffect-hook)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Key Concepts](#key-concepts)
-    - [1. **Basic Usage**](#1-basic-usage)
-    - [2. **Fetching Data with `useEffect`**](#2-fetching-data-with-useeffect)
-    - [3. **Listening to Window Resize Events**](#3-listening-to-window-resize-events)
-    - [4. **Dependency Management**](#4-dependency-management)
-    - [5. **Cleaning Up Effects**](#5-cleaning-up-effects)
-  - [Gotchas](#gotchas)
-  - [Conclusion](#conclusion)
-  - [Additional Resources](#additional-resources)
-
 ## Overview
 
 The `useEffect` Hook is a powerful tool in React that allows you to perform side effects in your function components. Side effects can include tasks such as data fetching, subscriptions, or manually changing the DOM. The `useEffect` Hook replaces lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components.
