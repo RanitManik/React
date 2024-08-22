@@ -1,4 +1,4 @@
-# `useReducer` Hook Documentation
+# `useReducer` Hook
 
 The `useReducer` Hook is a powerful alternative to `useState` for managing state in complex React applications. It is particularly useful when state logic involves multiple sub-values or when the next state depends on the previous one. Here's a detailed explanation of how it works, its benefits, and how to implement it.
 
