@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>useRef Hook</title>
+        <style>
+            body {
+                font-family: "Arial", sans-serif;
+                background-color: #f0f0f0;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100svh;
+            }
+
+            .container {
+                background-color: #fff;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                text-align: center;
+            }
+
+            input[type="text"] {
+                width: 400px;
+                display: block;
+                padding: 10px;
+                font-size: 18px;
+                border: 2px solid #ccc;
+                border-radius: 5px;
+                outline: none;
+                margin-bottom: 20px;
+                transition: border-color 0.3s ease;
+            }
+
+            input[type="text"]:focus {
+                border-color: #007bff;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 18px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+            h1 {
+                max-width: 300px;
+                font-size: 24px;
+                color: #333;
+            }
+
+            span {
+                display: block;
+                color: #007bff;
+                font-weight: bold;
+            }
+
+            @media (max-width: 600px) {
+                .container {
+                    width: 90%;
+                }
+
+                input[type="text"] {
+                    width: 100%;
+                }
+
+                button {
+                    width: 100%;
+                    font-size: 16px;
+                }
+
+                h1 {
+                    font-size: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>
