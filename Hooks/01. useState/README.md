@@ -153,6 +153,7 @@ export default ThemeComponent;
 
 ## Additional Resources
 
-- [React Official Documentation: `useState`](https://reactjs.org/docs/hooks-state.html)
-- [React Hooks at a Glance](https://reactjs.org/docs/hooks-overview.html)
-- [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html)
+- [React Official Documentation: `useState`](https://react.dev/reference/react/useState)
+- [Web Dev Simplified Blog: `useState`](https://blog.webdevsimplified.com/2020-04/use-state/)
+- [Built-in React Hooks](https://react.dev/reference/react/hooks)
+- [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)
